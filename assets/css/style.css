@@ -1,0 +1,62 @@
+input {
+    display: block;
+    margin-top: 10px;
+    width: 70px;
+}
+
+#heightSlider, #widthSlider {
+    width: 1000px;
+}
+
+img {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: inline;
+}
+
+#originalHeight {
+    display: inline;
+}
+
+.origem {
+    margin-bottom: 30px;
+    align-content: center;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column; /* Flex direction como coluna para o alinhamento principal */
+    align-items: center; /* Centraliza horizontalmente os itens */
+}
+
+.image-container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente a imagem dentro do seu container */
+    position: relative; /* Posição relativa para posicionar absolutamente o input de height */
+}
+
+.height-input {
+    position: relative;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+.width-input {
+    margin-top: 10px; /* Espaço entre a imagem e o input de width */
+    margin-right: 100px; /* Espaço entre a imagem e o input de width */
+    align-self: center; /* Centraliza o input de width abaixo da imagem */
+}
+
+.ajustes {
+    width: 1200px;
+    margin: auto;
+}
+
+.botoes {
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
